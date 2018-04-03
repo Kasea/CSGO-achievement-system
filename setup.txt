@@ -1,0 +1,13 @@
+When client leaves(alternative update every 5 min):
+Update his information in the Player table
+
+
+When client joines(alternative "reload client"):
+Run a check of the client thru every achivement, and check if the client has done the achivement already
+
+
+Functionality
+sm_achivement = menu showing you four options: 1. All achivements, 2. Your achivements, 3. Achivements yet to complete, 4. Your stats
+-When you click on an achivement it will show you the requirements to get it, what type it is, how many points and credits it gives aswell as if it's hidden or not
+sm_addachivement Name(name of achivement) Type(what type will it be?) Points(how many achivement points will it give?) Score(how many "points" of the type do you need to get this achivement IE 10 score of the type Kill) Credits(how many store credits will this give?) Hidden(should this be hidden until completed in the sm_achivement?)
+print to the client when it has completed a new achivement

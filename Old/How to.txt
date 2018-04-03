@@ -1,0 +1,40 @@
+Database:
+"Achivements"
+*STEAM_ID:0
+play_time
+jumps
+maps
+death
+points
+achivement_count
+
+
+Plugin:
+
+Natives:
+achivement_exist("name")
+achivement_finished(client, "name")
+
+Config:
+
+Enum:
+player: (g_nPlayer)
+{
+	steam
+	points
+	achivements completed(completed)
+}
+
+achivement: (g_nAchivements)
+{
+	name
+	jump
+	death
+	map
+	Achivement_Finish
+	Achivement_Points
+	category
+	count_as_achivement
+	points
+	credits
+}

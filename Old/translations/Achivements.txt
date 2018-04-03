@@ -1,0 +1,62 @@
+"Phrases"
+{
+	"Has client achived this achivement"
+	{
+		"#format"		"{1:s}"
+		"en"			"You have {1} this achivement"
+	}
+	
+	"Jumps for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} jumps,"
+	}
+	
+	"Deaths for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} deaths,"
+	}
+	
+	"Map completion for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need to complete {1} maps,"
+	}
+	
+	"Achivement count for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} achivements,"
+	}
+	
+	"Points for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} points,"
+	}
+	
+	"To achive achivement"
+	{
+		"en"			"To achive this achivement"
+	}
+
+	"CT"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} joined {BLUE}CT Team{NORMAL}."
+		"fr"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} a rejoint les {BLUE}CT{NORMAL}."
+	}
+	"T"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} joined {RED}Terro Team{NORMAL}."
+		"fr"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} a rejoint les {RED}Terro{NORMAL}."
+	}
+	"SPEC"
+	{
+		"#format"		"{1:s}"
+		"en"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} joined {YELLOW}spectators Team{NORMAL}."
+		"fr"			"[{GREEN}TIMER{NORMAL}] {BLUE}{1}{NORMAL} a rejoint les {YELLOW}spectateurs{NORMAL}."
+	}
+}

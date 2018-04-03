@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS `achivements` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(128) NOT NULL DEFAULT '',
+  `type` varchar(32) DEFAULT 'temp',
+  `points` int(11) NOT NULL DEFAULT '0',
+  `score` int(11) NOT NULL DEFAULT '0',
+  `credits` int(11) NOT NULL DEFAULT '0',
+  `hidden` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`,`name`)
+)
+
+CREATE TABLE IF NOT EXISTS `completed_achivements` (
+  `achiv_id` int(11) NOT NULL DEFAULT '0',
+  `play_id` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`achiv_id`,`play_id`)
+)
+
+CREATE TABLE IF NOT EXISTS `players` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `SteamID` varchar(32) DEFAULT NULL,
+  `points` int(11) NOT NULL,
+  `achivements` int(11) NOT NULL,
+  `jumps` int(11) NOT NULL,
+  `kills` int(11) NOT NULL,
+  `maps` int(11) NOT NULL,
+  `deaths` int(11) NOT NULL,
+  `shots` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+)

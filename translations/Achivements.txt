@@ -1,0 +1,43 @@
+"Phrases"
+{
+	"Got Achivement"
+	{
+		"#format"		"{1:N},{2:s}"
+		"en"			"{1} got the achievement {2}"
+	}
+	
+	"Jumps for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} jumps,"
+	}
+	
+	"Deaths for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} deaths,"
+	}
+	
+	"Map completion for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need to complete {1} maps,"
+	}
+	
+	"Achivement count for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} achivements,"
+	}
+	
+	"Points for achivement"
+	{
+		"#format"		"{1:i}"
+		"en"			"You need {1} points,"
+	}
+	
+	"To achive achivement"
+	{
+		"en"			"To achive this achivement"
+	}
+}
